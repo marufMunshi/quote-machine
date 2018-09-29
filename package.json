@@ -7,8 +7,7 @@
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
-    "start": "node server/server.js",
-    "heroku-postbuild": "npm run build:prod"
+    "start": "node server/server.js"
   },
   "author": "Maruf Hasan",
   "license": "ISC",
