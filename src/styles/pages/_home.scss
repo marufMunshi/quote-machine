@@ -1,0 +1,55 @@
+#quote-box {
+  border-radius: 5px;
+  width: 500px;
+  padding: 40px 50px;
+  background-color: #fff;
+}
+
+#text {
+  text-align: center;
+  blockquote {
+    font-size: 190%;
+    word-spacing: 3px;
+    line-height: 135%;
+    
+    &:before {
+      display: inline-block;
+      content: "\f347";
+      font-size: 80%;
+      font-family: 'ionicons';
+      margin-right: 15px;
+      vertical-align: super;
+    }
+  }
+}
+
+#author {
+  text-align: right;
+  padding-top: 20px;
+  cite {
+    font-size: 120%;
+    font-style: normal
+  }
+}
+
+#buttons {
+  padding-top: 40px;
+  overflow: auto;
+  .button {
+    background-color: #333;
+    color: #fff;
+    border: 0;
+    word-spacing: 3px;
+    font-size: 110%;
+    padding: 12px 24px;
+    &:focus {
+      outline: none;
+    }
+  }
+  #new-quote {
+    float: right;
+  }
+  #tweet-quote {
+    float: left;
+  }
+}
